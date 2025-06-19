@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://score-mate-orcin.vercel.app/sitemap.xml
