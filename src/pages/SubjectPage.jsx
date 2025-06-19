@@ -1,5 +1,12 @@
 import { useState } from "react";
 import { toast, Toaster } from "react-hot-toast";
+import { Helmet } from "react-helmet";
+
+<Helmet>
+  <title>Tính điểm môn học | ScoreMate</title>
+  <meta name="description" content="Tính điểm tổng kết môn học từ điểm thường kỳ, giữa kỳ, cuối kỳ, thực hành. Hỗ trợ cả môn lý thuyết và thực hành." />
+  <meta name="keywords" content="tính điểm môn học, điểm tổng kết, điểm thực hành, điểm lý thuyết, điểm thi, đại học" />
+</Helmet>
 
 export default function SubjectPage() {
   const [type, setType] = useState("lythuyet");

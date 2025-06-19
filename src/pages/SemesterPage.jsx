@@ -1,5 +1,12 @@
 import { useState } from "react";
 import { toast, Toaster } from "react-hot-toast";
+import { Helmet } from "react-helmet";
+
+<Helmet>
+  <title>Tính điểm học kỳ | ScoreMate</title>
+  <meta name="description" content="Tính điểm trung bình học kỳ (GPA) theo tín chỉ, thang điểm 10 và 4. Tự động xếp loại học lực cho sinh viên." />
+  <meta name="keywords" content="tính điểm học kỳ, GPA đại học, tính GPA, điểm trung bình, xếp loại học lực" />
+</Helmet>
 
 export default function SemesterPage() {
   const [subjects, setSubjects] = useState([{ name: "", credit: 0, score: 0 }]);

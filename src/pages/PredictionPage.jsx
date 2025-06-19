@@ -1,5 +1,12 @@
 import { useState } from "react";
 import { toast, Toaster } from "react-hot-toast";
+import { Helmet } from "react-helmet";
+
+<Helmet>
+  <title>Dự đoán điểm cuối kỳ | ScoreMate</title>
+  <meta name="description" content="Dự đoán số điểm bạn cần đạt ở cuối kỳ để đạt được điểm tổng kết mong muốn. Hữu ích cho lập kế hoạch học tập." />
+  <meta name="keywords" content="dự đoán điểm, tính điểm cuối kỳ, mục tiêu điểm, GPA mong muốn, tính GPA đại học" />
+</Helmet>
 
 export default function SubjectPage() {
   const [type, setType] = useState("lythuyet");
